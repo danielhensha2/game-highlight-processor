@@ -2,7 +2,7 @@
 
 ## A Scalable and Automated Solution (Part 1: Storage & Playback)
 
-![cameraman ](30DaysDevOpsChallenge/Day5_game-highlight-processor/MyNCAAGameHighlights/image.png)
+![cameraman ](image.png)
 
 ### Introduction
 Content creators and media companies face a constant challenge: efficiently managing and distributing game highlights. This project tackles this by building a **scalable and automated solution** powered by Docker and AWS.
@@ -13,7 +13,7 @@ Content creators and media companies face a constant challenge: efficiently mana
 
 ### Solution
 
-![Architecture Diagram](30DaysDevOpsChallenge/Day5_game-highlight-processor/MyNCAAGameHighlights/image-1.png)
+![Architecture Diagram](image-1.png)
 
 The **Game Highlight Processor** automates:
 - Game highlight retrieval
@@ -100,7 +100,7 @@ This executes scripts (`fetch.py`, `process_one_video.py`, `mediaconvert_process
 ### 7. Verify Successful Execution
 Check your S3 bucket for uploaded files (e.g., `first_video.mp4` in the `videos` folder).
 
-![NCAA Highlights Video](30DaysDevOpsChallenge/Day5_game-highlight-processor/MyNCAAGameHighlights/image-2.png)
+![NCAA Highlights Video](image-2.png)
 
 ## Conclusion (Part 1)
 We've automated fetching and storing NCAA game highlights using Docker and AWS S3, laying the foundation for a robust and scalable sports highlight processing pipeline.
@@ -119,3 +119,5 @@ For further details, feel free to explore the repository or contribute to the pr
 
 
 ## THANK YOU VERY MUCH ##
+
+
