@@ -100,7 +100,7 @@ This executes scripts (`fetch.py`, `process_one_video.py`, `mediaconvert_process
 ### 7. Verify Successful Execution
 Check your S3 bucket for uploaded files (e.g., `first_video.mp4` in the `videos` folder).
 
-![NCAA Highlights Video](image-2.png)
+![NCAA Highlights Video](Day 5 Gif.gif)
 
 ## Conclusion (Part 1)
 We've automated fetching and storing NCAA game highlights using Docker and AWS S3, laying the foundation for a robust and scalable sports highlight processing pipeline.
